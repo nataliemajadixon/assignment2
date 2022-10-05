@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" href= "styleapply.css">
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+</head>
+<body>
+<h1 class="header">Skillspire Student Registration Form</h1>
+<div>
+    <style> 
+        input[type=text] {
+          width: 50;
+          padding: 5px 15px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        input[type=date]{
+            width: 50;
+          padding: 5px 15px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        input[type=email]{
+            width: 100;
+          padding: 5px 30px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        input[type=tel]{
+            width: 10%;
+          padding: 5px 15px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        input[type=pwd]{
+            width: 10%;
+          padding: 5px 15px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        input[type=radio]{
+            width: 2%;
+            margin: 8px 0;
+          box-sizing: border-box;
+        }
+        input[type=file]{
+            margin: 8px 0;
+         box-sizing: border-box;
+        }
+        input[type=checkbox]{
+            width: 2%;
+            margin: 8px 0;
+          box-sizing: border-box;
+        }
+        input[type=range]{
+            
+            margin: 8px 0;
+          box-sizing: border-box;
+        }
+
+
+
+        </style>
+<form style="text-align: center;">
+     <label for="fname" class="formformat">FIRST NAME</label>
+    <input type="text" id="fname" name="fname" class="formformat" required/>
+    <br>
+    <label for="lname" class="formformat">LAST NAME</label>
+    <input type="text" required/>
+    <br>
+    <label for="birthdate" class="formformat" >BIRTHDATE</label>
+    <input type="date" id="birthdate" name="birthdate" class="formformat">
+    <br>
+    <label>EMAIL</label>
+    <input type="email" id="email" name="email" required/>
+    <br>
+    <label>PHONE NUMBER</label>
+    <input type="tel" id="phone" placeholder="123-456-7890"/>
+    <br>
+    <label for="username">CREATE A USERNAME</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="pwd">CREATE A PASSWORD</label>
+    <input type="password" id="pwd" name="pwd">
+    <br>
+    <label>WHICH BEST DESCRIBES YOU?</label>
+    <input type="radio" value="a" name="Question-6">Female</input>
+    <input type="radio" value="b" name="Question-6">Male</input>
+    <input type="radio" value="c" name="Question-6">Non-binary</input>
+    <input type="radio" value="a" name="Question-6">Transgender</input>
+    <input type="radio" value="a" name="Question-6">Intersex</input>
+    <input type="radio" value="a" name="Question-6">I prefer not to say</input>
+    <br>
+    <label>STREET</label>
+    <textarea name="street" rows="4" cols="30"></textarea>
+    <br>
+    <label>CITY</label>
+    <input type="text">
+    <br>
+    <label>STATE</label>
+    <input type="text">
+    <br>
+    <label>COUNTRY</label>
+    <input type="text">
+    <br>
+    <label>COURSES OF INTEREST</label>
+    <input type="checkbox" value="a" name="Question-11">Python</input>
+    <input type="checkbox" value="a" name="Question-11">SQL</input>
+    <input type="checkbox" value="a" name="Question-11">MERN</input>
+    <input type="checkbox" value="a" name="Question-11">Java</input>
+    <input type="checkbox" value="a" name="Question-11">Other</input>
+    <textarea name="courses" rows="1" cols="30">Enter other classes here</textarea>
+    <br>
+    <label>EDUCATION</label>
+    <input type="text">
+
+    <br>
+    <label>UPLOAD A FILE OF YOUR TRANSCRIPT</label>
+    <action input type="file" id="file" name="file">
+    <input type="file" id="file" name="file">
+    <br>
+    <label>OPTIMAL TIME FOR CLASS</label>
+    <input type="checkbox" value="a" name="Question-13">Morning</input>
+    <input type="checkbox" value="a" name="Question-13">Afternoon</input>
+    <input type="checkbox" value="a" name="Question-13">Dinner</input>
+    <br>
+    <label>HOW EXCITED ARE YOU TO JOIN SKILLSPIRE?</label>
+    <action input="x.value=parseInt(a.value) + parseInt(b.value)">
+        0
+    <input type="range" id="notvery" name="notvery" value="50">
+    100  
+    
+    
+    <output name="x" for="a b"></output>
+    <br>
+    <input id="submitbutton" type="button" onclick="alert('Your application has been submitted!')"
+    value="Submit">
+
+</div>
+    
+</form>
+</body>
+</html>
