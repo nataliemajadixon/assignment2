@@ -65,7 +65,7 @@
 
         </style>
 <form style="text-align: center;">
-     <label for="fname" class="formformat">FIRST NAME</label>
+     <label for="fname" class="formformat" id="fnamelabel">FIRST NAME</label>
     <input type="text" id="fname" name="fname" class="formformat" required/>
     <br>
     <label for="lname" class="formformat">LAST NAME</label>
@@ -93,9 +93,10 @@
     <input type="radio" value="a" name="Question-6">Transgender</input>
     <input type="radio" value="a" name="Question-6">Intersex</input>
     <input type="radio" value="a" name="Question-6">I prefer not to say</input>
+    <textarea name="courses" id="gender" rows="1" cols="30">Let me type...</textarea>
     <br>
     <label>STREET</label>
-    <textarea name="street" rows="4" cols="30"></textarea>
+    <textarea name="street" rows="4" cols="30" id="streettext"></textarea>
     <br>
     <label>CITY</label>
     <input type="text">
@@ -112,10 +113,43 @@
     <input type="checkbox" value="a" name="Question-11">MERN</input>
     <input type="checkbox" value="a" name="Question-11">Java</input>
     <input type="checkbox" value="a" name="Question-11">Other</input>
-    <textarea name="courses" rows="1" cols="30">Enter other classes here</textarea>
+    <textarea name="courses" id="coursetext" rows="1" cols="30">Enter other classes here</textarea>
     <br>
-    <label>EDUCATION</label>
-    <input type="text">
+    <br>
+    <label id="educationlabel">EDUCATION</label>
+    <table style="width:60%" id="educationtable">
+      <tr>
+        <th></th>
+        <th>MAJOR</th>
+        <th>GPA</th>
+        <th>YEAR GRADUATED</th>
+      </tr>
+      <tr>
+      <th>HIGH SCHOOL</th>
+        <td><textarea></textarea></td>
+        <td><textarea></textarea></td>
+        <td><textarea></textarea></td>
+      </tr>
+      <tr>
+        <th>UNDERGRAD</th>
+        <td><textarea></textarea></td>
+        <td><textarea></textarea></td>
+        <td><textarea></textarea></td>
+      </tr>
+      <tr> 
+      <th>GRADUATE</th>
+      <td><textarea></textarea></td>
+        <td><textarea></textarea></td>
+        <td><textarea></textarea></td>
+     </tr>
+     <tr> 
+      <td></td>
+      <td>(10 char max)</td>
+        <td>(Up to 2 decimal)</td>
+        <td></td>
+     </tr>
+    </table>
+
 
     <br>
     <label>UPLOAD A FILE OF YOUR TRANSCRIPT</label>

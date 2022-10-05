@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=PT+Serif&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -60,4 +62,64 @@ input[type=text] {
 }
 body{
 	background: rgb(241, 145, 248);
+}
+#coursetext{
+
+	margin: 8px 15px 0px 5px;
+	padding: 3px;
+}
+#streettext{
+	margin: 5px 0px 0px 5px;
+	
+	
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+th, td{
+	padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#submitbutton{
+	display: inline-block;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #450963;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(169, 37, 230);
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+#submitbutton:hover {background-color: #c26ad6}
+
+#submitbutton:active {
+  background-color: #cd98ea;
+  box-shadow: 0 10px #666;
+  transform: translateY(4px);
+}
+form{
+	font-family: 'Merriweather', serif;
+	
+}
+form{
+	margin-top: 2%;
+	
+}
+#file{
+	padding: 0px 0px 0px 10px;
+}
+#gender{
+	margin: 10px 5px 0px 15px
+	
 }
