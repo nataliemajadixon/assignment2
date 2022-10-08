@@ -91,7 +91,8 @@ table {
 
 .top_text{
     padding: 15px 32px;
-    font-size: 30px;
+    font-size: 40px;
+
 }
 .sections{
     display:flex;
@@ -133,10 +134,32 @@ main{
 }
 footer{
     bottom: 0;
-    padding: 10% 20% 0% 10%;
+    padding: 5% 20% 2% 10%;
     line-height: 1.5cm;
     background-color: antiquewhite;
     
+}
+#footerbutton{
+    background-color: #eedbf7;
+    border: 2;
+    border-color: rgb(185, 18, 240);
+    color: rgb(0, 0, 0);
+    padding: 9px 8px;
+    text-align: center;
+    text-decoration: wavy;
+    /* display: inline-block; */
+    font-size: 12px;
+    margin: 10px 10px 15px 20px;
+    border-radius: 15px;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    box-shadow: 0 6px rgb(169, 37, 230);
+}
+#footerbutton:hover {background-color: #c26ad6;}
+#footerbutton:active {
+    background-color: #cd98ea;
+    box-shadow: 0 8px rgb(168, 124, 185);
+    transform: translateY(4px);
 }
 
 #bookingbutton{

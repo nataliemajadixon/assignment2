@@ -123,3 +123,8 @@ form{
 	margin: 10px 5px 0px 15px
 	
 }
+#topimage{
+	width: 160px;
+	display: flex;
+	flex-direction: row;
+}
